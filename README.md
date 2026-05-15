@@ -81,3 +81,5 @@ copy-fail-challenge/
 ---
 
 *Basado en CVE-2026-31431 descubierto por Theori / Xint Code. Divulgado el 29 de abril de 2026.*
+
+commit 1 12:02 - 12:07
