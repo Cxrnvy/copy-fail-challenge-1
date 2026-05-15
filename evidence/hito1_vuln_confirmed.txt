@@ -1,0 +1,11 @@
+{
+  echo "=== HITO 1: KERNEL VULNERABLE CONFIRMADO ==="
+  echo "Fecha: $(date)"
+  echo "Hostname: $(hostname)"
+  echo "Kernel: $(uname -r)"
+  echo "Identidad: $(id)"
+  echo "Módulos AF_ALG:"
+  lsmod | grep -i alg || echo "(no encontrado con lsmod, verificar /proc/modules)"
+  echo "algif_aead en /proc/modules:"
+  grep algif_aead /proc/modules 2>/dev/null || echo "(no encontrado)"
+} > ~/hito1.txt && cat ~/hito1.txt
