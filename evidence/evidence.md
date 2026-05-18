@@ -1,2 +1,2 @@
-![Exploit en funcionamiento](ExploitCheck.jpeg)
-![Exploit parchado](ExploitPatch.png)
+![Exploit en funcionamiento](../images/ExploitCheck.jpeg)
+![Exploit parchado](../images/ExploitPatch.png)
