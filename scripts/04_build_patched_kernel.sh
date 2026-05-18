@@ -76,9 +76,11 @@ echo -e "${CYAN}[4/4] Reconstruyendo initramfs con kernel parcheado...${NC}"
 cd "$WORKSPACE_ROOT"
 BZIMAGE_BACKUP="$BUILD_DIR/bzImage_vuln"
 cp "$BUILD_DIR/bzImage_patched" "$BUILD_DIR/bzImage_vuln"
+cp "$BUILD_DIR/bzImage_patched" "$BUILD_DIR/bzImage_vuln.final"
+cp "$BUILD_DIR/bzImage_patched" "$BUILD_DIR/bzImage_vuln.final"
 bash scripts/02_build_rootfs.sh
 cp "$BUILD_DIR/bzImage_vuln" "$BUILD_DIR/bzImage_patched"
-mv "$BZIMAGE_BACKUP" "$BUILD_DIR/bzImage_vuln"
+mv "$BZIMAGE_BACKUP" "$BUILD_DIR/bzImage_clean"
 
 echo ""
 echo -e "${GREEN}✓ Todo listo. Para verificar que el exploit falla:${NC}"
