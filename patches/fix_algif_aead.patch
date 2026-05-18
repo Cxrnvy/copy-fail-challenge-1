@@ -1,5 +1,0 @@
---- a/crypto/algif_aead.c
-+++ b/crypto/algif_aead.c
-@@ -555,7 +555,7 @@
--		aead_request_set_crypt(&areq->cra_u.aead_req, rsgl_src, rsgl_src,
-+		aead_request_set_crypt(&areq->cra_u.aead_req, tsgl_src, rsgl_dst,

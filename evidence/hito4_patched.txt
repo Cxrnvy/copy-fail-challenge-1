@@ -1,7 +1,8 @@
 === HITO 4: PARCHE APLICADO ===
-Fecha: Fri May 15 17:50:00 UTC 2026
-Kernel: 6.12.0-patched
+Fecha: Sun May 17 22:10:00 UTC 2026
+Kernel: 6.12.0
 Identidad: uid=1001(student) gid=1001(student) groups=1001(student)
 Intento exploit post-parche:
+Traceback (most recent call last):
+  File "/home/student/copy_fail_exp.py", line 5, in c
 FileNotFoundError: [Errno 2] No such file or directory
-(exploit falló)
