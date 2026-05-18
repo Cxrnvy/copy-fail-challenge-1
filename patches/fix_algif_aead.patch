@@ -1,0 +1,7 @@
+diff --git a/crypto/algif_aead.c b/crypto/algif_aead.c
+index 1234567..89abcdef 100644
+--- a/crypto/algif_aead.c
++++ b/crypto/algif_aead.c
+@@ -191,3 +191,3 @@ static int _aead_recvmsg(struct socket *sock, struct msghdr *msg,
+-	aead_request_set_crypt(req, rsgl_src, rsgl_src, asoclen + cryptlen, iv);
++	aead_request_set_crypt(req, tsgl_src, rsgl_dst, asoclen + cryptlen, iv);
