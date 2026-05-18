@@ -6,3 +6,6 @@ algif_aead en lsmod:
 
 Intento de exploit post-mitigación:
 FileNotFoundError: [Errno 2] No such file or directory
+
+Hostname: copy-fail
+[student@copy-fail ~]$

@@ -11,3 +11,6 @@ b8c385802a8bf3ed8c9e421008d511394f489fcd201f1489e21de62589e5dbf0  copy_fail_exp.
 [root@copy-fail ~]# whoami
 root
 Exploit finalizado. Root shell obtenida mediante CVE-2026-31431.
+
+Hostname: copy-fail
+[student@copy-fail ~]$

@@ -12,5 +12,7 @@ FileNotFoundError: [Errno 2] No such file or directory
 Verificación de Identidad:
 [student@copy-fail ~]$ whoami
 student
+[student@copy-fail ~]$ id
+uid=1001(student) gid=1001(student) groups=1001(student)
 
 Conclusión: La inyección falló. El aislamiento de memoria (TX SGL y RX SGL) y la reconfiguración de los módulos bloquearon el acceso al Page Cache. Privilegios de superusuario NO comprometidos.
